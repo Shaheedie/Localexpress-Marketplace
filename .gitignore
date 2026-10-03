@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Local runtime data
+backend/src/database/localexpress-data.json
+backend/src/uploads/*
+!backend/src/uploads/.gitkeep
+
+# Build / test output
+frontend/dist/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
