@@ -121,7 +121,6 @@ The local database is seeded automatically on first backend start.
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | `admin@localexpress.com` | `admin123` |
 | Seller | `seller@localexpress.com` | `seller123` |
 | Buyer | `buyer@localexpress.com` | `buyer123` |
 
